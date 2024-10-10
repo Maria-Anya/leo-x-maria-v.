@@ -15,4 +15,5 @@ footer{
     bottom: 0;
     background-color: var(--rodape);
     width: 100%;
+    text-align: center;
 }

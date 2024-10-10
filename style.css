@@ -5,7 +5,13 @@
     --destaque : #E0FFFF;
     --preto :#000000;
     --branco:#FFFFFF;
+    --rodape:#8B0000;
 }
 body{
     background-color: var(--fundo) ;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--rodape);
 }

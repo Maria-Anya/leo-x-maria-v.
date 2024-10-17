@@ -33,3 +33,18 @@ footer{
     height: 20rem;
     margin: 1rem;
 }
+.conteudo-cartao{
+    background-color: #725cef;
+    height: 100%;
+    text-align: center;
+}
+.conteudo-cartao h3{
+    position: absolute;
+    text-align: left;
+    color: var(--destaque) ;
+    border: 1px solid var(--destaque);
+    border-radius: 3rem;
+    margin: 0.6rem;
+    padding: 0.6rem;
+    font-size: 1vw;
+}

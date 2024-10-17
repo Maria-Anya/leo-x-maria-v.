@@ -1,6 +1,6 @@
 :root{
     --fundo: #adadf1;
-    --cartao-frente : #7B68EE;
+    --cartao-frente : #725cef;
     --cartao-verso: #4B0082;
     --destaque : #E0FFFF;
     --preto :#000000;
@@ -27,6 +27,7 @@ footer{
 
 }
 .cartao{
+    background-color: #725cef;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
     height: 20rem;

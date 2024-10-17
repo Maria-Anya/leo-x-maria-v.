@@ -63,10 +63,14 @@ footer{
 .resposta-cartao{
     font-weight: 700;
     color: var(--destaque);
+    background-color: var(--cartao-verso);
+    transform: rotateY(180deg);
+    border: 2px solid var(--destaque);
 }
 
 .cartao:hover .conteudo-cartao{
     transform: rotateY(180deg);
+
 }
 .pergunta-cartao,
 .resposta-cartao{

@@ -11,7 +11,7 @@ body{
     background-color: var(--fundo) ;
 }
 
-header.{
+header{
     padding: 2rem;
     display: flex;
     justify-content: space-around;

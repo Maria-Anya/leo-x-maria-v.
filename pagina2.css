@@ -38,3 +38,8 @@ footer{
     display: grid;
     gap: 2rem;
 }
+
+.cartao{
+    background-color: var(--cartao-frente);
+    padding: 40px;
+}

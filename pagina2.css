@@ -44,3 +44,7 @@ footer{
     padding: 40px;
     box-shadow:  5px 5px 25px var(--preto);
 }
+
+.cartao:hover{
+    transform: scale(1.04);
+}

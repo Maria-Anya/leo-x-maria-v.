@@ -18,6 +18,11 @@ header.{
     background-color: var(--rodape);
 }
 
+header a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
 footer{
     position: fixed;
     bottom: 0;

@@ -3,7 +3,7 @@ function criaCartao(categoria, pergunta, respota){
     let cartao = document.createElement('cartao');
     cartao.className = 'cartao';
     cartao.innerHTML = `
-    <div class="conteudo-cartao">
+    <div class="conteudo-cartao" >
      <h3>${categoria}</h3>
      <div class="pergunta-cartao">
          <p>${pergunta}</p>
@@ -15,4 +15,15 @@ function criaCartao(categoria, pergunta, respota){
      `
  
     container.appendChild(cartao);
+ }
+
+ function mostrarResposta (card){
+    const resposta=card.querySelector('resposta-catao');
+    if(resposta.style.dislay==='none'){
+        resposta.style.display='block';
+}
+
+else{
+    resposta.style.display='none';
+}
  }
